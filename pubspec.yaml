@@ -1,0 +1,103 @@
+name: weather_demo
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  dio: ^0.1.2
+  flutter_spinkit: ^1.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    #bg pics
+    - res/backgrounds/cloudy-bg.webp
+    - res/backgrounds/heavyrain-bg.webp
+    - res/backgrounds/lightrain-bg.webp
+    - res/backgrounds/overcast-bg.webp
+    - res/backgrounds/snow-bg.webp
+    - res/backgrounds/sunny-bg.webp
+    #icons
+    - res/icons/0-icon.webp
+    - res/icons/1-icon.webp
+    - res/icons/2-icon.webp
+    - res/icons/3-icon.webp
+    - res/icons/4-icon.webp
+    - res/icons/5-icon.webp
+    - res/icons/6-icon.webp
+    - res/icons/7-icon.webp
+    - res/icons/8-icon.webp
+    - res/icons/9-icon.webp
+    - res/icons/10-icon.webp
+    - res/icons/13-icon.webp
+    - res/icons/14-icon.webp
+    - res/icons/15-icon.webp
+    - res/icons/16-icon.webp
+    - res/icons/17-icon.webp
+    - res/icons/18-icon.webp
+    - res/icons/19-icon.webp
+    - res/icons/20-icon.webp
+    - res/icons/29-icon.webp
+    - res/icons/30-icon.webp
+    - res/icons/31-icon.webp
+    - res/icons/32-icon.webp
+    - res/icons/33-icon.webp
+    - res/icons/34-icon.webp
+    - res/icons/40-icon.webp
+    - res/icons/45-icon.webp
+    - res/icons/arrow-icon.webp
+    - res/icons/time-icon.webp
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
