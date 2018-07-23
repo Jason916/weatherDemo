@@ -9,7 +9,7 @@ A weather application write with Flutter.
 
 ## Getting Started
 ```bash
-git clone https://github.com/Jason916/weather_demo
+git clone https://github.com/Jason916/weatherDemo
 cd weather_demo
 flutter packages get
 flutter run
