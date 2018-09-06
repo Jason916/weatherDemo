@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
 class HomePage extends StatelessWidget {
+  static const navigateToListPageKey = Key('navigateToListPage');
+
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
@@ -146,6 +148,7 @@ class WeatherHomeState extends State<WeatherHome> {
           'low_temperature']}° ~ ${todayWeather['high_temperature']}°";
     }
     return new GestureDetector(
+      key: HomePage.navigateToListPageKey,
       onTap: _goWeatherListPage,
       child: new Container(
         height: 49.0,
